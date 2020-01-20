@@ -10,16 +10,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 </head>
 
-<body>
-    <header>
-        <h1>Techshed Frome</h1>
-        <h2>play.collobrate.make</h2>
-        <summary>A weekly communal space for the tech curious to play, collaborate and make.</summary>
-    </header>
+<body class="has-text-centered">
+    <section class="hero is-fullheight video is-primary is-medium">
+        <div class="hero-video">
+            <video poster="assets/bg_image.webp" id="bgvid" playsinline autoplay muted loop>
+                <source src="vid/BGvid.webm" type="video/webm">
+                <source src="vid/vid.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-body" style="background: url(assets/bg_image.webp) center / cover; ">
+            <div class="container has-text-centered">
+                <h1 class="title">Techshed Frome</h1 class="title">
+                <h2 class="subtitle">play.collobrate.make</h2 class="title">
+                <summary>A weekly communal space for the tech curious to play, collaborate and make.</summary>
+                <button>find out more</button>
+            </div>
+        </div>
+        <div class="hero-foot">
+            <div class="has-text-centered">
+                // Scroll down arrow here?
+            </div>
+        </div>
+    </section>
 
-    <button>find out more</button>
 
-    <h3>What is techshed?</h3>
+
+    <h3 class="subtitle">What is techshed?</h3 class="subtitle">
     A group of technology enthusiasts that get together each week in social space to ‘tinker’... with everything from
     circuit boards, programming, lasers, websites, apps, 3d printers.
 
@@ -78,6 +94,6 @@ Not ready to sign up but want to follow us? Sign up to our newsletter
 
 
 
-</body>
+</body class="has-text-centered">
 
 </html>
