@@ -10,19 +10,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 </head>
 
-<body>
-    <section class="hero is-fullheight video">
+<body class="has-text-centered">
+    <section class="hero is-fullheight video is-primary is-medium">
         <div class="hero-video">
-            <video poster="img/bgimg.jpg" id="bgvid" playsinline autoplay muted loop>
+            <video poster="assets/bg_image.webp" id="bgvid" playsinline autoplay muted loop>
                 <source src="vid/BGvid.webm" type="video/webm">
                 <source src="vid/vid.mp4" type="video/mp4">
             </video>
         </div>
-        <div class="hero-body">
-            <div class="container">
-                <h1>Techshed Frome</h1>
-                <h2>play.collobrate.make</h2>
+        <div class="hero-body" style="background: url(assets/bg_image.webp) center / cover; ">
+            <div class="container has-text-centered">
+                <h1 class="title">Techshed Frome</h1 class="title">
+                <h2 class="subtitle">play.collobrate.make</h2 class="title">
                 <summary>A weekly communal space for the tech curious to play, collaborate and make.</summary>
+                <button>find out more</button>
             </div>
         </div>
         <div class="hero-foot">
@@ -33,9 +34,8 @@
     </section>
 
 
-    <button>find out more</button>
 
-    <h3>What is techshed?</h3>
+    <h3 class="subtitle">What is techshed?</h3 class="subtitle">
     A group of technology enthusiasts that get together each week in social space to ‘tinker’... with everything from
     circuit boards, programming, lasers, websites, apps, 3d printers.
 
@@ -58,6 +58,6 @@
     See some member examples
 
 
-</body>
+</body class="has-text-centered">
 
 </html>
