@@ -11581,3 +11581,7 @@ print {
     background-color: #fafafa;
     padding: 3rem 1.5rem 6rem
 }
+
+@media only screen and (min-width: 401px) and (max-width: 1024px) {
+    #videoDisplay { display: none; }   /* hide it elsewhere */
+  }
