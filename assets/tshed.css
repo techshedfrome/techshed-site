@@ -11584,4 +11584,8 @@ print {
 
 @media only screen and (min-width: 401px) and (max-width: 1024px) {
     #videoDisplay { display: none; }   /* hide it elsewhere */
+  
   }
+  @media only screen and (min-width: 720px)  {
+  #mobileView  { display: none; }   /* hide it elsewhere */
+}
