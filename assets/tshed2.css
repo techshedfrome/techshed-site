@@ -11582,9 +11582,10 @@ print {
     padding: 3rem 1.5rem 6rem
 }
 
-@font-face {
-    font-family: 'Archia Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Archia Regular'), url('Archia-Regular.woff') format('woff');
-    }
+@media only screen and (min-width: 401px) and (max-width: 1024px) {
+    #videoDisplay { display: none; }   /* hide it elsewhere */
+  
+  }
+  @media only screen and (min-width: 720px)  {
+  #mobileView  { display: none; }   /* hide it elsewhere */
+}
