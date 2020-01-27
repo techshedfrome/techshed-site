@@ -11588,3 +11588,9 @@ print {
     font-weight: normal;
     src: local('Archia Regular'), url('Archia-Regular.woff') format('woff');
     }
+
+    .funkyUnderlineBlue {
+
+        box-shadow:  0 10px 0 0 rgba(50,153,221,0), inset 0 -0.125em rgba(50,153,221,.2);
+              
+    }
