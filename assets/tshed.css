@@ -11541,6 +11541,22 @@ print {
     }
 }
 
+@media screen and (min-width:768px) {
+    .spacerDesk {
+        margin-top: 50px;
+     }
+    }
+
+    @media screen and (max-width:768px) {
+        .spacerMobile {
+            padding-bottom: 0px;
+            padding-top:0px;
+         }
+         .topspacerMobile{
+         padding-top:30px;
+        }
+    }
+
 @media screen and (min-width:769px),
 print {
     .hero-buttons {
