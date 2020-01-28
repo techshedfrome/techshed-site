@@ -11610,3 +11610,10 @@ print {
         box-shadow:  0 10px 0 0 rgba(50,153,221,0), inset 0 -0.125em rgba(50,153,221,.2);
               
     }
+
+    #element-toggle {
+        display: none;
+      }
+      #element-toggle:checked ~ #myModal {
+        display: flex;
+      }
