@@ -13,17 +13,84 @@
     <script src="https://kit.fontawesome.com/f5feadf823.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="has-text-centered is-size-6-mobile" style="font-family: 'Quicksand', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-  <section class="hero is-fullheight   " >
+<body class="has-text-centered is-size-6-mobile " style="font-family: 'Quicksand', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0&appId=1865387150354840&autoLogAppEvents=1"></script>
+  
+
+<nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+      <img src="assets/ColourLogo.png" height="28">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu ">
+    <div class="navbar-start">
+      <a class="navbar-item">
+        Membership
+      </a>
+
+      <a class="navbar-item">
+        Gallery
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Projects
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            About
+          </a>
+          <a class="navbar-item">
+            Jobs
+          </a>
+          <a class="navbar-item">
+            Contact
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            Report an issue
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-light">
+            Contact Us
+          </a>          
+
+          <a class="button is-primary">
+            <strong>Join Techshed</strong>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="hero is-fullheight   " >
     <div class="hero-body has-text-centered" style="center / cover; background: white; margin:0 auto;" >
 <div class="container "></div>
       <div class="columns">
-        <div class="column has-text-right-tablet is-one-fifth spacerDesk topspacerMobile" >
-        
+        <div class="column has-text-right-tablet is-one-fifth  topspacerMobile" >
+          <img src="assets/ColourLogo.png" width="101px">
         </div>
         
         <div class="column has-text-left-tablet  spacerMobile" >
-          <img src="assets/Tshedlogo.png" width="282px;" style="margin-bottom: 10px;">
+          
           <h1 class="title has-text-black " style="text-shadow: 1px 1px 2px rgba(0, 0, 0, .50)">TECHSHED FROME</h1 class="title">
             <h2 class="subtitle has-text-black" style="margin-bottom: 10px;"><strong class="has-text-black">play.collobrate.make</strong></h2>
             <img src="assets/dots.png" width="116px;">
@@ -96,7 +163,7 @@
               <strong> Can I work on my own thing and just tinker?</strong>
         
               <p>
-                  Yes! Whatever it is, if its your own interest, you want to just play and learn or you might have identified a new problem that technology can solve in the wider community.
+                  Yes! Whatever it is, if its your own interest, or you want to just play and learn.
               </p>
         
             </div>
@@ -184,10 +251,31 @@
         <section class="pannel section" style=" background-color:lightskyblue;color: black;" >
             <h3 class="subtitle" style="color: black;">Join us or just pop in and say hello</h3>
             <p>We’re so glad you're interested in Techshed Frome. You’re welcome to just pop in and check it out for free, or sign up now.</p>
-            <br><button class="button block is-primary"> Learn more about membership</button>
+        <br>  <strong> Membership fee</strong>  <br> 
+            Free	first weekly session <br>
+            £5 	for annual subscription<br>
+            £3 	per weekly session<br>
+            <br>
+            Concession rates available, contact info@techshedfrome.org
+            <p></p>
+           
+           
+           
+            <br><button class="button block is-primary"> Sign up now</button>
 
             <p>Not ready to sign up but want to follow us?</p>
-            <br><button class="button block is-info">Sign up to our newsletter</button>
+            <div class="field has-text-centered " style="width: 300px;">
+              <p class="control has-icons-left has-icons-right ">
+                <input class="input " type="email" placeholder="Email"><button class="button block is-info" style="float: right;">Go</button>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-check"></i>
+                </span>
+              </p>
+            </div>
+            <br>
         </section>
 
 
@@ -225,6 +313,8 @@
       <label class="modal-close is-large" for="element-toggle"></label>
     </div>
 
+    
+
 
     <footer class="footer">
       <div class="content has-text-centered">
@@ -246,6 +336,7 @@
     </span>
   </span>
 </p>
+<div class="fb-like" data-href="https://www.facebook.com/TechShedFrome/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
 
       </div>
     </footer>
