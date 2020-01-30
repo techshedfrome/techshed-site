@@ -1114,7 +1114,7 @@ a.has-text-danger:hover {
 }
 
 .has-background-danger {
-    background-color: #F3001E!important
+    background-color: #f14668!important
 }
 
 .has-text-black-bis {
@@ -8040,7 +8040,7 @@ a.navbar-item:hover {
     }
     .container>.navbar .navbar-menu,
     .navbar>.container .navbar-menu {
-        margin-right: -.75rem
+        margin-right: 0rem
     }
     .navbar.is-fixed-bottom-desktop,
     .navbar.is-fixed-top-desktop {
