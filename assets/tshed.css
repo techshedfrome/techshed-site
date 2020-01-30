@@ -470,7 +470,7 @@ a:hover {
 
 code {
     background-color: #f5f5f5;
-    color: #f14668;
+    color: #F3001E;
     font-size: .875em;
     font-weight: 400;
     padding: .25em .5em .25em
@@ -1105,7 +1105,7 @@ a.has-text-warning:hover {
 }
 
 .has-text-danger {
-    color: #f14668!important
+    color: #F3001E!important
 }
 
 a.has-text-danger:focus,
@@ -1114,7 +1114,7 @@ a.has-text-danger:hover {
 }
 
 .has-background-danger {
-    background-color: #f14668!important
+    background-color: #F3001E!important
 }
 
 .has-text-black-bis {
@@ -2987,7 +2987,7 @@ fieldset[disabled] .button.is-warning.is-inverted.is-outlined {
 }
 
 .button.is-danger {
-    background-color: #f14668;
+    background-color: #F3001E;
     border-color: transparent;
     color: #fff
 }
@@ -3019,14 +3019,14 @@ fieldset[disabled] .button.is-warning.is-inverted.is-outlined {
 
 .button.is-danger[disabled],
 fieldset[disabled] .button.is-danger {
-    background-color: #f14668;
+    background-color: #F3001E;
     border-color: transparent;
     box-shadow: none
 }
 
 .button.is-danger.is-inverted {
     background-color: #fff;
-    color: #f14668
+    color: #F3001E
 }
 
 .button.is-danger.is-inverted.is-hovered,
@@ -3039,7 +3039,7 @@ fieldset[disabled] .button.is-danger.is-inverted {
     background-color: #fff;
     border-color: transparent;
     box-shadow: none;
-    color: #f14668
+    color: #F3001E
 }
 
 .button.is-danger.is-loading::after {
@@ -3048,21 +3048,21 @@ fieldset[disabled] .button.is-danger.is-inverted {
 
 .button.is-danger.is-outlined {
     background-color: transparent;
-    border-color: #f14668;
-    color: #f14668
+    border-color: #F3001E;
+    color: #F3001E
 }
 
 .button.is-danger.is-outlined.is-focused,
 .button.is-danger.is-outlined.is-hovered,
 .button.is-danger.is-outlined:focus,
 .button.is-danger.is-outlined:hover {
-    background-color: #f14668;
-    border-color: #f14668;
+    background-color: #F3001E;
+    border-color: #F3001E;
     color: #fff
 }
 
 .button.is-danger.is-outlined.is-loading::after {
-    border-color: transparent transparent #f14668 #f14668!important
+    border-color: transparent transparent #F3001E #F3001E!important
 }
 
 .button.is-danger.is-outlined.is-loading.is-focused::after,
@@ -3075,9 +3075,9 @@ fieldset[disabled] .button.is-danger.is-inverted {
 .button.is-danger.is-outlined[disabled],
 fieldset[disabled] .button.is-danger.is-outlined {
     background-color: transparent;
-    border-color: #f14668;
+    border-color: #F3001E;
     box-shadow: none;
-    color: #f14668
+    color: #F3001E
 }
 
 .button.is-danger.is-inverted.is-outlined {
@@ -3091,14 +3091,14 @@ fieldset[disabled] .button.is-danger.is-outlined {
 .button.is-danger.is-inverted.is-outlined:focus,
 .button.is-danger.is-inverted.is-outlined:hover {
     background-color: #fff;
-    color: #f14668
+    color: #F3001E
 }
 
 .button.is-danger.is-inverted.is-outlined.is-loading.is-focused::after,
 .button.is-danger.is-inverted.is-outlined.is-loading.is-hovered::after,
 .button.is-danger.is-inverted.is-outlined.is-loading:focus::after,
 .button.is-danger.is-inverted.is-outlined.is-loading:hover::after {
-    border-color: transparent transparent #f14668 #f14668!important
+    border-color: transparent transparent #F3001E #F3001E!important
 }
 
 .button.is-danger.is-inverted.is-outlined[disabled],
@@ -3786,7 +3786,7 @@ fieldset[disabled] .button {
 }
 
 .notification.is-danger {
-    background-color: #f14668;
+    background-color: #F3001E;
     color: #fff
 }
 
@@ -3964,19 +3964,19 @@ fieldset[disabled] .button {
 }
 
 .progress.is-danger::-webkit-progress-value {
-    background-color: #f14668
+    background-color: #F3001E
 }
 
 .progress.is-danger::-moz-progress-bar {
-    background-color: #f14668
+    background-color: #F3001E
 }
 
 .progress.is-danger::-ms-fill {
-    background-color: #f14668
+    background-color: #F3001E
 }
 
 .progress.is-danger:indeterminate {
-    background-image: linear-gradient(to right, #f14668 30%, #ededed 30%)
+    background-image: linear-gradient(to right, #F3001E 30%, #ededed 30%)
 }
 
 .progress:indeterminate {
@@ -4111,8 +4111,8 @@ fieldset[disabled] .button {
 
 .table td.is-danger,
 .table th.is-danger {
-    background-color: #f14668;
-    border-color: #f14668;
+    background-color: #F3001E;
+    border-color: #F3001E;
     color: #fff
 }
 
@@ -4388,7 +4388,7 @@ fieldset[disabled] .button {
 }
 
 .tag:not(body).is-danger {
-    background-color: #f14668;
+    background-color: #F3001E;
     color: #fff
 }
 
@@ -4893,7 +4893,7 @@ fieldset[disabled] .textarea:-ms-input-placeholder {
 
 .is-danger.input,
 .is-danger.textarea {
-    border-color: #f14668
+    border-color: #F3001E
 }
 
 .is-danger.input:active,
@@ -5237,11 +5237,11 @@ fieldset[disabled] .select select:hover {
 }
 
 .select.is-danger:not(:hover)::after {
-    border-color: #f14668
+    border-color: #F3001E
 }
 
 .select.is-danger select {
-    border-color: #f14668
+    border-color: #F3001E
 }
 
 .select.is-danger select.is-hovered,
@@ -5552,7 +5552,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .file.is-danger .file-cta {
-    background-color: #f14668;
+    background-color: #F3001E;
     border-color: transparent;
     color: #fff
 }
@@ -5829,7 +5829,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .help.is-danger {
-    color: #f14668
+    color: #F3001E
 }
 
 .field:not(:last-child) {
@@ -6793,12 +6793,12 @@ a.list-item {
 }
 
 .message.is-danger .message-header {
-    background-color: #f14668;
+    background-color: #F3001E;
     color: #fff
 }
 
 .message.is-danger .message-body {
-    border-color: #f14668;
+    border-color: #F3001E;
     color: #cc0f35
 }
 
@@ -7545,7 +7545,7 @@ print {
 }
 
 .navbar.is-danger {
-    background-color: #f14668;
+    background-color: #F3001E;
     color: #fff
 }
 
@@ -7605,7 +7605,7 @@ print {
         color: #fff
     }
     .navbar.is-danger .navbar-dropdown a.navbar-item.is-active {
-        background-color: #f14668;
+        background-color: #F3001E;
         color: #fff
     }
 }
@@ -8040,7 +8040,7 @@ a.navbar-item:hover {
     }
     .container>.navbar .navbar-menu,
     .navbar>.container .navbar-menu {
-        margin-right: 0rem
+        margin-right: -.75rem
     }
     .navbar.is-fixed-bottom-desktop,
     .navbar.is-fixed-top-desktop {
@@ -8382,16 +8382,16 @@ print {
 }
 
 .panel.is-danger .panel-heading {
-    background-color: #f14668;
+    background-color: #F3001E;
     color: #fff
 }
 
 .panel.is-danger .panel-tabs a.is-active {
-    border-bottom-color: #f14668
+    border-bottom-color: #F3001E
 }
 
 .panel.is-danger .panel-block.is-active .panel-icon {
-    color: #f14668
+    color: #F3001E
 }
 
 .panel-block:not(:last-child),
@@ -11379,7 +11379,7 @@ print {
 }
 
 .hero.is-danger {
-    background-color: #f14668;
+    background-color: #F3001E;
     color: #fff
 }
 
@@ -11403,7 +11403,7 @@ print {
 
 @media screen and (max-width:1023px) {
     .hero.is-danger .navbar-menu {
-        background-color: #f14668
+        background-color: #F3001E
     }
 }
 
@@ -11449,16 +11449,16 @@ print {
 .hero.is-danger .tabs.is-toggle li.is-active a:hover {
     background-color: #fff;
     border-color: #fff;
-    color: #f14668
+    color: #F3001E
 }
 
 .hero.is-danger.is-bold {
-    background-image: linear-gradient(141deg, #fa0a62 0, #f14668 71%, #f7595f 100%)
+    background-image: linear-gradient(141deg, #fa0a62 0, #F3001E 71%, #f7595f 100%)
 }
 
 @media screen and (max-width:768px) {
     .hero.is-danger.is-bold .navbar-menu {
-        background-image: linear-gradient(141deg, #fa0a62 0, #f14668 71%, #f7595f 100%)
+        background-image: linear-gradient(141deg, #fa0a62 0, #F3001E 71%, #f7595f 100%)
     }
 }
 
