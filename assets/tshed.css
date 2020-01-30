@@ -7832,7 +7832,7 @@ a.navbar-item:hover {
     margin: .5rem 0
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:325px) {
     .navbar>.container {
         display: block
     }
@@ -7884,7 +7884,7 @@ a.navbar-item:hover {
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:325px) {
     .navbar,
     .navbar-end,
     .navbar-menu,
