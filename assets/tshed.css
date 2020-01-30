@@ -1114,7 +1114,7 @@ a.has-text-danger:hover {
 }
 
 .has-background-danger {
-    background-color: #f14668!important
+    background-color: #F3001E!important
 }
 
 .has-text-black-bis {
@@ -11617,3 +11617,8 @@ print {
       #element-toggle:checked ~ #myModal {
         display: flex;
       }
+
+.hideWidget a {
+display: none !important;
+
+}
