@@ -11622,3 +11622,10 @@ print {
 display: none !important;
 
 }
+
+.TechShedFromeBrandText {
+
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+    text-transform: capitalize;
+
+}
