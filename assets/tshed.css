@@ -225,6 +225,8 @@
     top: 0
 }
 
+
+
 .button,
 .file-cta,
 .file-name,
@@ -11636,3 +11638,7 @@ display: none !important;
     text-transform: capitalize;
 
 }
+
+html {
+    scroll-behavior: smooth;
+  }
