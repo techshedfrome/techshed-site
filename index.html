@@ -45,7 +45,7 @@
 <nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://techshedfrome.org/">
-      <img src="assets/NewLogo_mini.png" height="38">
+      <img src="assets/NewLogo_mini.png" height="38" alt="Tech Shed Frome logo">
     </a>
 
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -84,15 +84,15 @@
             Tech Shed Frome Charter
           </a>
           <a class="navbar-item ">
-            Contact the team
+            <label for="ContactUsModal" style=" cursor: pointer;" >Contact the team</label> 
           </a>
-          <hr style="margin:0px;">
-          <a class="navbar-item" href="https://forum.techshedfrome.org" style="padding-right: 10px;">
+          <hr style="margin-top:0px;margin-bottom: 3px;">
+          <a class="navbar-item" href="https://forum.techshedfrome.org" target="_blank" style="padding-right: 10px;">
             Discourse fourm<i class="fas fa-external-link-alt" style="margin-left:6px;"></i> 
           </a>
        
        
-        <a class="navbar-item" href="https://trello.com/b/8EllkZqi" style="padding-right: 10px;">
+        <a class="navbar-item" href="https://trello.com/b/8EllkZqi" target="_blank" style="padding-right: 10px;">
           Problem board <i class="fas fa-external-link-alt" style="margin-left:6px;"></i>
         </a>
      
@@ -103,8 +103,8 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-light is-hidden-mobile">
-            Contact Us
+          <a class="is-light is-hidden-mobile button"  >
+            <label for="ContactUsModal" style=" cursor: pointer;" >Contact Us</label>
           </a>          
 
           <a class="button is-warning has-text-weight-semibold has-text-black" href="#members">
@@ -116,9 +116,77 @@
     </div>
   </div>
 </nav>
+<input id="ContactUsModal" type="checkbox" />
+<!-- Modal -->
+<div class="modal" id="contactUs">
+<div class="modal-background"></div>
+<div class="modal-content">
+  <div class="box">
+    <article class="media">
+     
+      <div class="media-content">
+        <div class="content">
+        
+            <h3>Contact Us</h3>
+           
+            Drop the team a message and we'll get back to you as soon as we can.  Alternativley you can find us on Facebook, Instagram or <a href="mailto:team@techshedfrome.org" class="funkyUnderlineBlue">email us directly</a> </a>
+          <br><br><form>
 
+            <div class="field">
+              <label class="label ">Your Name</label>
+              <div class="control ">
+                <input class="input is-warning" type="text" placeholder="" >
+              </div>
+            </div>
+            
+            
+            
+            <div class="field">
+              <label class="label">Your Email</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input is-warning" type="email" placeholder="Email input" value="">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right" style="display: none;">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </span>
+              </div>
+              <p class="help is-danger">This email is invalid</p>
+            </div>
+            
+           
+            
+            <div class="field">
+              <label class="label ">Message</label>
+              <div class="control">
+                <textarea class="textarea is-warning" placeholder="Leave the team a message here.."></textarea>
+              </div>
+            </div>
+            
+            
+            
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link is-warning">Send message</button>
+              </div>
+              
+            </div>
+            
+          </form>
+         
+       
+        </div>
+        
+      </div>
+    </article>
+  </div>
+   <!-- Modal -->
+</div>
+<label class="modal-close is-large" for="ContactUsModal"></label>
+</div>
 <section class="hero is-fullheight   " >
-    <div class="hero-body has-text-centered" style="center / cover; background: white; margin:0 auto;" >
+    <div class="hero-body has-text-centered" style="background: white; margin:0 auto;" >
 <div class="container " ></div>
       <div class="columns" style="margin-top:50px;" >
         <div class="column has-text-right-tablet is-one-fifth  topspacerMobile" >
@@ -126,19 +194,19 @@
         </div>
         
         <div class="column has-text-centered  spacerMobile" >
-          <img src="assets/NewLogo.png" width="290px">
-          <h1 class="title has-text-black is-hidden"  >TECH SHED FROME</h1 class="title">
+          <img src="assets/NewLogo.png" width="290" alt="Tech Shed Frome logo">
+          <h1 class="title has-text-black is-hidden"  >TECH SHED FROME</h1>
            
            
-            <summary class="content is-size-5" style="margin-top:10px;">Bringing people together with an interest in technology, to make useful things for the community of Frome.
+            <div class="content is-size-5" style="margin-top:10px;">Bringing people together with an interest in technology, to make useful things for the community of Frome.
               <p><br>Every Wednesday 7pm - 9pm<a class="funkyUnderlineBlue" href="https://welshmillhub.org/remakery/"> @Remakery:Frome</a></p>
-            </summary >
-            <a href="#down" style="scroll-behavior:smooth;"><button class="button is-warning is-uppercase has-text-black is-rounded text-is-1 has-text-weight-semibold" style="letter-spacing: 2px;">Learn more</button></a>
+            </div >
+            <a href="#down" class="button is-warning is-uppercase has-text-black is-rounded text-is-1 has-text-weight-semibold" style="letter-spacing: 2px;">Learn more</a>
            
           </div>
           
         <div class="column is-half">
-          <img src="assets/mainheroimage.png" width="550px" style="margin-bottom: 20px;">
+          <img src="assets/mainheroimage.png" width="550" style="margin-bottom: 20px;" alt="Tech Shed Team on a breadboard">
         
         </div>
        
@@ -146,7 +214,7 @@
 
 </div>
 </section>
-<img src="assets/drone_seperator.png" width="343px;" id="down">
+<img src="assets/drone_seperator.png" width="343" id="down" alt="drone carton image">
 
 
 <section class="content section container " style="margin-bottom: 0px;margin-top: 30px;">
@@ -158,7 +226,7 @@
           </div>
   
   <div class="column content section container" style="padding-top:20px;" >
-    <div class="block" ><img src="assets/techshedgroup.png" width="500px" style="margin-top:0px;" id="Gallery"></div>
+    <div class="block" ><img src="assets/techshedgroup.png" width="500" style="margin-top:0px;" id="Gallery" alt="Tech Shed Group photo"></div>
    
     
   </div></div>
@@ -171,7 +239,7 @@
           <section>   
           <div class="content section container"  style="scroll-behavior: smooth; padding-top: 0px;">
         
-          <img src="assets/circuit_seperator.png" width="322px" id="WhatHappens" >
+          <img src="assets/circuit_seperator.png" width="322" id="WhatHappens" alt="circuit cartoon image">
           <h3>What happens at Tech Shed Frome?</h3>
           <Strong>Weekly Sessions</Strong><br>
 We meet every wednesday from 7-9pm @ The Welish Mill Hub. This can to socialise, share, learn and create.<br><br>
@@ -210,31 +278,31 @@ We meet every wednesday from 7-9pm @ The Welish Mill Hub. This can to socialise,
         
             </div>
           
-              <img src="assets/drone_seperator.png" width="311px" style="margin-top:60px" id="WhoGetInvolved" >
+              <img src="assets/drone_seperator.png" width="311" style="margin-top:60px" id="WhoGetInvolved" alt="drone cartoon image">
               
-              <section class="content  " style="margin-bottom: 0px;margin-top:40px" id="down">
+              <section class="content  " style="margin-bottom: 0px;margin-top:40px" >
                 <h3 style="margin-bottom: 30px;">Who should get involved?</h3>
                 <div class="columns">
                   <div class="column has-text-left-tablet">
                     
                     We welcome <strong>everyone</strong> who’s interested in the community and using technology to make it a better
-                      place.  Below are the sorts of <strong>useful roles</strong> that some members bring to Tech Shed Frome.
+                      place.  <br><br>Below are the sorts of <strong>useful roles</strong> that some members bring to Tech Shed Frome.
                             <div class="content">
           
-                              <br><strong>Developers</strong> <br>Whatever you langauges is from PHP, Python, C++, Java, Ruby, Javascript, HTML, CSS we want it all.
-                              <br><strong>Organisers & Communicators </strong><br>You love to herd the sheep, work out what needs doing and make things happen. Or perhaps you can communicate complex ideas in simple ways to any audience?
-                              <br><strong>Designers</strong><br>UXers, graphic or brand designers that can make things simple, easy and beautiful all at the same time.
-                              <br><strong>Technologists</strong><br>Maybe you just play with a bit of everything from electronics, programming, lasers, 3d printing.. whatever it's all welcome.
+                              <br><strong>Developers</strong> <br>Whatever you langauges is from PHP, Python, C++, Java, Ruby, Javascript, HTML, CSS we want it all.<br>
+                              <br><strong>Organisers & Communicators </strong><br>You love to herd the sheep, work out what needs doing and make things happen. Or perhaps you can communicate complex ideas in simple ways to any audience?<br>
+                              <br><strong>Designers</strong><br>UXers, graphic or brand designers that can make things simple, easy and beautiful all at the same time.<br>
+                              <br><strong>Technologists</strong><br>Maybe you just play with a bit of everything from electronics, programming, lasers, 3d printing.. whatever it's all welcome.<br>
                             
                           </div>
 
                           </div>
                   
                   <div class="column content  container" >
-                    <div class="block" ><img src="assets/peopleGather.jpg" width="500px" style="margin-top:0px;"></div>
+                    <div class="block" ><img src="assets/peopleGather.jpg" width="500" style="margin-top:0px;" alt="people gathering at Tech Shed Frome"></div>
                    
-                    <section class="box has-background-white-bis " style="margin-top: 30px;" >
-                      <section style="padding-top: 0px;padding-bottom: 0px;">
+                    <div class="box has-background-white-bis " style="margin-top: 30px;" >
+                      <div style="padding-top: 0px;padding-bottom: 0px;">
                           <strong> Can I chat to someone before I come?</strong>
                           <p>Sure why not chat to the team and we will do our best to make you feel at home</p>
                          <strong> Will you fix my laptop or tech kit?</strong>
@@ -247,20 +315,20 @@ We meet every wednesday from 7-9pm @ The Welish Mill Hub. This can to socialise,
                               again, a
                               member will be happy to show you the basics. You might also be interested in coming to an open day.
                           </p>
-                      </section>
+                        </div>
                       
-                  </section>
+                      </div>
                   </div></div>
                 </section>
 
-        <img src="assets/wifi_seperator.png" width="311 px;" style="margin-top: 80px;" id="WhatMembersGet" >
+        <img src="assets/wifi_seperator.png" width="311" style="margin-top: 80px;margin-bottom: 30px;" id="WhatMembersGet" alt="wifi cartoon image" >
      
         <h3 >What do Tech Shed Frome members get?</h3>
-        <section class="content container" style="padding-bottom: 0px;padding-top:20px" >
+        <section class="content container" style="padding-bottom: 0px;padding-top:20px">
           <div class="columns">
             <div class="column">
             
-              <div class="block" style="margin-bottom:0px" ><img src="assets/TechshedKit.jpg" width="500px" style="margin-top:0px;margin-bottom: 0px;"></div>
+              <div class="block" style="margin-bottom:0px" ><img src="assets/TechshedKit.jpg" width="500" style="margin-top:0px;margin-bottom: 0px;" alt="Picture of Tech Shed Kit"></div>
              <div class="is-italic">Just a snapshot of the great kit we've got to play with.  See something missing? Let us know and we'll do our best to get it.</div>
               
                     </div>
@@ -271,31 +339,31 @@ We meet every wednesday from 7-9pm @ The Welish Mill Hub. This can to socialise,
                 <p><strong>Access to <label class="funkyUnderlineBlue" for="element-toggle">all of our kit</label></strong>, with plenty of fun things you can play and tinker with.  A member will always be happy to show you the basics.</p>
                 <p><strong>A social space </strong>to hang out, learn and chat with bright and interesting people who are curious about playing with technology.</p>
               <p>  A chance to <strong>make a difference </strong> and impact in your local community.</p>
-              <p>  An <a href = "https://forum.techshedfrome.org/" class="funkyUnderlineBlue" ><strong>online fourm </strong></a>to chat and share ideas.</p>
+              <p>  An <a href = "https://forum.techshedfrome.org/" class="funkyUnderlineBlue" ><strong>online fourm </strong></a><i class="fas fa-external-link-alt" style="margin-left:0px;" ></i> to chat and share ideas.</p>
             </div>
-           
+           </div>
             </div>
           </section>
 
-      <img src="assets/mouse_seperator.png" width="311px;" style="margin-top: 50px;margin-bottom: 50px;" id="members">
+      <img src="assets/mouse_seperator.png" width="311" style="margin-top: 50px;margin-bottom: 50px;" id="members" alt="Mouse cartoon image">
     
         <section class="box has-background-white-bis" style="padding-bottom: 30px;padding-top:50px;" >
             <h3 class="subtitle" >Join us or just pop in and say hello</h3>
-            We’re so glad you're interested in Tech Shed Frome. You’re welcome to just pop in and check it out for free, or sign up now.</p>
+            We’re so glad you're interested in Tech Shed Frome. You’re welcome to just pop in and check it out for free, or sign up now.
           <h4 style="margin-top:30px;margin-bottom: 0px;"> Membership fee</h4> 
-            Free	- First weekly session <br>
-            £5 	- Annual subscription<br>
+            Free	- Your first weekly session <br>
+            £5 	- Annual membership fee<br>
             £3 	- per weekly session<br>
 
             <br><button class="button block is-warning"> Sign up now</button><br>
           
-            <div >Concession rates available, contact the team on<br><a href="mailto:info@Tech Shedfrome.org" class="funkyUnderlineBlue">info@techshedfrome.org</a></div>
+            <div >Concession rates available, contact the team on<br><a href="mailto:info@Techshedfrome.org" class="funkyUnderlineBlue">info@techshedfrome.org</a></div>
          
            
 <hr >
             <p><strong >Follow us for updates on Email</strong></p>
-            <div class="field has-text-centered " style="width: 300px;margin:0 auto;">
-              <p class="control has-icons-left has-icons-right ">
+            <div class="field has-text-centered " style="width:300px;margin:0 auto;">
+              <div class="control has-icons-left has-icons-right ">
                 
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
@@ -303,8 +371,17 @@ We meet every wednesday from 7-9pm @ The Welish Mill Hub. This can to socialise,
                 <span class="icon is-small is-right">
                   <i class="fas fa-check"></i>
                 </span>
-                <input class="input is-warning" type="email" placeholder="Email"><br><div class="has-text-centered"><button class="button block is-warning" >Subscribe now</button></div>
-              </p>
+                
+                <div style="width:300px;text-align: center;" > 
+                  <form action="//mc.us20.list-manage.com/signup-form/subscribe?u=55ffa95e37bb0cf901911b917&id=008244e1f0" accept-charset="UTF-8" method="post" enctype="multipart/form-data" data-dojo-attach-point="formNode" novalidate="">
+                    <input class="input is-warning" type="email" placeholder="Email" id="mc-EMAIL">
+                    <br>
+                    <div class="has-text-centered">
+                      <div style="position:absolute;left:-5000px;"><input type="text" name="b_55ffa95e37bb0cf901911b917_87901" tabindex="-1" value=""></div>
+                      <input class="button block is-warning" style="margin-top:20px;" type="submit" data-dojo-attach-point="submitButton" value="Subscribe now">
+                    </div>
+                  </form>
+              </div>
             </div>
             <br>
         
@@ -324,15 +401,17 @@ We meet every wednesday from 7-9pm @ The Welish Mill Hub. This can to socialise,
            
             <div class="media-content">
               <div class="content">
-                <p>
+              
                   <h3>Tech Shed Frome kit</h3>
                   <br>
+                <ol>
                   <li>x3 raspberry Pi</li>
                   <li>x3 BBC</li>
                   <li>x1 soldering iron</li>
                   <li>x3 Arduinos</li>
-                  <img src="assets/TechshedKit.jpg" width="500px" style="margin-top:0px;margin-bottom: 0px;">
-                </p>
+                </ol>
+                  <img src="assets/TechshedKit.jpg" width="500" style="margin-top:0px;margin-bottom: 0px;" alt="Image of Tech Shed Frome Kit">
+             
               </div>
               
             </div>
@@ -343,14 +422,15 @@ We meet every wednesday from 7-9pm @ The Welish Mill Hub. This can to socialise,
       <label class="modal-close is-large" for="element-toggle"></label>
     </div>
 
-    <footer class="footer" >
+      
+       
+
+    <footer class="footer">
       <div class="content has-text-centered">
-        <p>
-          <img src="assets/NewLogo.png" width="290px" style="margin-top: 20px;">
-          <h1 class="title has-text-black is-hidden"  >TECH SHED FROME</h1 class="title">
-        </p>
+        <img src="assets/NewLogo.png" width="290" style="margin-top: 20px;" alt="Tech Shed Frome Logo">
+          <h1 class="title has-text-black is-hidden"  >TECH SHED FROME</h1>
         <p>7-9pm every Wednesday evening</p><p>Welshmill Hub, Park Hill Dr, Frome BA11 2LE</p>
-<p>
+
   
   <span class="icon is-large">
     <span class="fa-2x">
@@ -363,16 +443,16 @@ We meet every wednesday from 7-9pm @ The Welish Mill Hub. This can to socialise,
       <a href="https://www.youtube.com/channel/UCd4pDZ0Tipv1DvRoo26fJmg">  <i class="fab fa-youtube has-text-black"></i></a>
     </span>
   </span>
-</p>
+
       
-     
+     </div>
      
     </footer>
 
-    
+  </section >
 </body >
 
-</section >
+
 
 </html>
 

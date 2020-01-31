@@ -5787,7 +5787,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .help {
-    display: block;
+    display: none;
     font-size: .75rem;
     margin-top: .25rem
 }
@@ -11617,6 +11617,14 @@ print {
       #element-toggle:checked ~ #myModal {
         display: flex;
       }
+
+      #ContactUsModal {
+        display: none;
+      }
+      #ContactUsModal:checked ~ #contactUs {
+        display: flex;
+      }
+
 
 .hideWidget a {
 display: none !important;
