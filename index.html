@@ -49,6 +49,13 @@
          else
             e.style.display = 'block';
       }
+
+      function toggle_off(id) {
+         var e = document.getElementById(id);
+        
+            e.style.display = 'none';
+       
+      }
   //-->
   </script>
 
@@ -66,11 +73,11 @@
       
 
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" onmouseover="toggle_visibility('navbar-dropdown1') ">
+        <a class="navbar-link" onmouseover="toggle_visibility('navbar-dropdown1')" >
           Membership
         </a>
 
-        <div class="navbar-dropdown" id="navbar-dropdown1">
+        <div class="navbar-dropdown" id="navbar-dropdown1" onmouseleave="toggle_off('navbar-dropdown1')">
           <a class="navbar-item" href="#down" onclick="toggle_visibility('navbar-dropdown1');" >
             What is Tech Shed Frome?
           </a>
@@ -263,7 +270,7 @@ We meet every wednesday from 7-9pm @ The Welish Mill Hub. This can to socialise,
    
               <strong>Can I help out on a project?</strong>
               <p>
-                  See our <a class="funkyUnderlineBlue" href="https://trello.com/b/8EllkZqi">problem board</a>  that lists all the on-going projects.  If you think you can add something to it, from the marketing, to the design or the coding then you
+                  See our <a class="funkyUnderlineBlue" href="https://trello.com/b/8EllkZqi">problem board</a> <i class="fas fa-external-link-alt" style="margin-left:0px;" ></i>   that lists all the on-going projects.  If you think you can add something to it, from the marketing, to the design or the coding then you
                   can buddy up with the team.
               </p>
               
