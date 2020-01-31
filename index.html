@@ -40,7 +40,17 @@
 <body class="has-text-centered is-size-6-mobile " style="font-family: 'Quicksand', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
   <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0&appId=1865387150354840&autoLogAppEvents=1"></script>
-  
+<script type="text/javascript">
+  <!--
+      function toggle_visibility(id) {
+         var e = document.getElementById(id);
+         if(e.style.display == 'block')
+            e.style.display = 'none';
+         else
+            e.style.display = 'block';
+      }
+  //-->
+  </script>
 
 <nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
@@ -48,11 +58,7 @@
       <img src="assets/NewLogo_mini.png" height="38" alt="Tech Shed Frome logo">
     </a>
 
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
+  
   </div>
 
   <div id="navbarBasicExample" class="navbar-menu ">
@@ -60,12 +66,12 @@
       
 
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
+        <a class="navbar-link" onmouseover="toggle_visibility('navbar-dropdown1') ">
           Membership
         </a>
 
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="#down">
+        <div class="navbar-dropdown" id="navbar-dropdown1">
+          <a class="navbar-item" href="#down" onclick="toggle_visibility('navbar-dropdown1');" >
             What is Tech Shed Frome?
           </a>
           <a class="navbar-item" href="#WhatHappens">
@@ -199,7 +205,7 @@
            
            
             <div class="content is-size-5" style="margin-top:10px;">Bringing people together with an interest in technology, to make useful things for the community of Frome.
-              <p><br>Every Wednesday 7pm - 9pm<a class="funkyUnderlineBlue" href="https://welshmillhub.org/remakery/"> @Remakery:Frome</a></p>
+              <p><br><strong> Wednesday 7pm - 9pm</strong><br>@Remakery, The Welshmill Hub</p>
             </div >
             <a href="#down" class="button is-warning is-uppercase has-text-black is-rounded text-is-1 has-text-weight-semibold" style="letter-spacing: 2px;">Learn more</a>
            
@@ -428,7 +434,7 @@ We meet every wednesday from 7-9pm @ The Welish Mill Hub. This can to socialise,
 
     <footer class="footer">
       <div class="content has-text-centered">
-        <img src="assets/TechShed_Logo.gif"  style="margin-top: 20px;" alt="Tech Shed Frome Logo">
+        <img src="assets/NewLogo.png" width="258" style="margin-top: 20px;" alt="Tech Shed Frome Logo">
           <h1 class="title has-text-black is-hidden"  >TECH SHED FROME</h1>
         <p>7-9pm every Wednesday evening</p><p>Welshmill Hub, Park Hill Dr, Frome BA11 2LE</p>
 
