@@ -608,5 +608,5 @@ progress.is-danger::-webkit-progress-value {
         text-transform: capitalize;
     }
     html {
-        scroll-behavior: smooth;
+        scroll-behavior: smooth !important;
       }
