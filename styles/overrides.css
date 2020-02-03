@@ -548,13 +548,14 @@ progress.is-danger::-webkit-progress-value {
     max-height: calc(100vh - 3.25rem);
     overflow: inherit !important;
 }
-
+}
 @media screen and (max-width: 1023px) {
 .navbar-menu {
     background-color: #fff;
     box-shadow:none !important ;
     padding: .5rem 0;
     border: 0px !important;
+}
 }
 
 @media screen and (min-width:768px) {
@@ -576,12 +577,7 @@ progress.is-danger::-webkit-progress-value {
         background-color: #fafafa;
         padding: 3rem 1.5rem 6rem
     }
-    @font-face {
-        font-family: 'Archia Regular';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Archia Regular'), url('Archia-Regular.woff') format('woff');
-        }
+    
         .funkyUnderlineBlue {
              cursor: pointer;
             box-shadow:  0 10px 0 0 rgba(50,153,221,0), inset 0 -0.125em rgba(50,153,221,.2);
