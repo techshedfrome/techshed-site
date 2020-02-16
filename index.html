@@ -43,7 +43,7 @@
 
 
 <script type="text/javascript">
-  <!--
+
       function toggle_visibility(id) {
          var e = document.getElementById(id);
          if(e.style.display == 'block')
@@ -58,7 +58,13 @@
             e.style.display = 'none';
        
       }
-  //-->
+
+      function hideAd() {
+        
+        document.getElementById('eapps-instagram-feed-1').children[4].style.display = 'none'
+
+      }
+ 
   </script>
 
 <nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
@@ -109,6 +115,9 @@
        
         <a class="navbar-item" href="https://trello.com/b/8EllkZqi" target="_blank" style="padding-right: 10px;">
           Problem board <i class="fas fa-external-link-alt" style="margin-left:6px;"></i>
+        </a>
+        <a class="navbar-item" href="https://github.com/techshedfrome" target="_blank" style="padding-right: 10px;">
+          GitHub repo <i class="fas fa-external-link-alt" style="margin-left:6px;"></i>
         </a>
      
         </div>
@@ -238,7 +247,7 @@
 
   <div class="column has-text-left-tablet">
             A group of technology enthusiasts that meet each week in social space to ‘tinker’.  We believe that if we put together <a href="#WhoGetInvolved" class="funkyUnderlineBlue">people who love technology</a> we can make some useful things for the community. 
-                  <br><br><strong> What do you mean by technology?</strong> <br>Everything from Arduinos, Raspberry Pi's, drones, soldering, programming, lasers, websites, apps, VR, 3d printers.  See our <label class="funkyUnderlineBlue" for="element-toggle">kit list</label>.
+                  <br><br><strong> What do you mean by technology?</strong> <br>Everything from Arduinos, Raspberry Pi, drones, soldering, programming, lasers, websites, apps, VR, 3d printers.  See our <label class="funkyUnderlineBlue" for="element-toggle">kit list</label>.
                 <br><br> <strong>Give us a challenge!</strong><br> 
                   If you think you've got a local community problem that needs fresh thinking, <label for="ContactUsModal" style=" cursor: pointer;" class="funkyUnderlineBlue" >tell us</label> or drop in and say hello.
                 
@@ -254,6 +263,9 @@
   <h3 >Gallery</h3>
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
   <div class="elfsight-app-132bd728-68af-4605-b36c-6da8f4d4c43d"></div>
+  <script>
+    setTimeout(hideAd,1500)
+  </script>
 
 </section>
  
@@ -280,7 +292,7 @@ We meet every Wednesday from 7-9pm at <a href="https://goo.gl/maps/k4xUKxdr83veo
    
               <strong>Can I help out on a project?</strong>
               <p>
-                Yes! Take a look at <a href="#WhoGetInvolved" class="funkyUnderlineBlue">who should get involved</a> to see what sort of role you might like to take.  To see on-going projects, take alook at our <a class="funkyUnderlineBlue" href="https://trello.com/b/8EllkZqi">problem board</a> <i class="fas fa-external-link-alt" style="margin-left:0px;" ></i>
+                Yes! Take a look at <a href="#WhoGetInvolved" class="funkyUnderlineBlue">who should get involved</a> to see what sort of role you might like to take.  To see on-going projects, take a look at our <a class="funkyUnderlineBlue" href="https://trello.com/b/8EllkZqi">problem board</a> <i class="fas fa-external-link-alt" style="margin-left:0px;" ></i>
               </p>
               
            
@@ -312,7 +324,7 @@ We meet every Wednesday from 7-9pm at <a href="https://goo.gl/maps/k4xUKxdr83veo
                               <br><strong>Developers</strong> <br>Whatever you langauge, whether PHP, Python, C++, Java, Ruby, Javascript, HTML, or CSS we want it all.<br>
                               <br><strong>Organisers & Communicators </strong><br>You love to herd cats, work out what needs doing and make things happen. Or perhaps you can communicate complex ideas in simple ways to any audience?<br>
                               <br><strong>Designers</strong><br>UXers, graphic or brand designers that can make things simple, easy and beautiful all at the same time.<br>
-                              <br><strong>Technologists</strong><br>Maybe you just play with a bit of everything from electronics, programming, lasers, 3d printing.. whatever it's all welcome.<br>
+                              <br><strong>Technologists</strong><br>Maybe you just play with a bit of everything from electronics and programming to lasers, 3d printing.. whatever it's all welcome.<br>
                             
                           </div>
 
@@ -349,7 +361,7 @@ We meet every Wednesday from 7-9pm at <a href="https://goo.gl/maps/k4xUKxdr83veo
             <div class="column">
             
               <div class="block" style="margin-bottom:0px" ><img src="assets/TechshedKit.jpg" width="500" style="margin-top:0px;margin-bottom: 0px;" alt="Picture of Tech Shed Kit"></div>
-             <div class="is-italic">Just a snapshot of the great kit we've got to play with.  See something missing? Let us know and we'll do our best to get it.</div>
+             <div class="is-italic">Just a snapshot of some of the great kit we've got to play with.  See something missing? Let us know and we'll do our best to get it.</div>
               
                     </div>
             
@@ -358,7 +370,7 @@ We meet every Wednesday from 7-9pm at <a href="https://goo.gl/maps/k4xUKxdr83veo
               <div class="content">
                 <p><strong>Access to <label class="funkyUnderlineBlue" for="element-toggle">all of our kit</label></strong>, with plenty of fun things you can play and tinker with.  A member will always be happy to show you the basics.</p>
                 <p><strong>A social space </strong>to hang out, learn and chat with bright and interesting people who are curious about playing with technology.</p>
-              <p>  A chance to <strong>make a difference </strong> and impact in your local community.</p>
+              <p>  A chance to <strong>make a difference  and impact </strong>in your local community.</p>
               <p>  Our <a href = "https://forum.techshedfrome.org/" class="funkyUnderlineBlue" ><strong>Community Forum</strong></a> <i class="fas fa-external-link-alt" style="margin-left:0px;" ></i> to chat and share ideas.</p>
             </div>
            </div>
@@ -429,7 +441,7 @@ We meet every Wednesday from 7-9pm at <a href="https://goo.gl/maps/k4xUKxdr83veo
                  We've got a bunch of ever growing kit, with lots of things to play with.  
                  <br><br> <strong>Below should give you a flavour</strong>
                 <ul>
-                  <li>Raspberry Pi's</li>
+                  <li>Several Raspberry Pi</li>
                   <li>BBC microbits</li>
                   <li>Soldering iron</li>
                   <li>Arduinos</li>

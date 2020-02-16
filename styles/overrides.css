@@ -416,3 +416,8 @@
     html {
         scroll-behavior: smooth !important;
       }
+
+      .eapps-widget-toolbar a {
+
+        display: none !important;
+      }
