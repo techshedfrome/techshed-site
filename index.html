@@ -2,444 +2,507 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tech Shed Frome</title>
-   
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-     <link rel="stylesheet" href="styles/overrides.css"> 
-   <!--<link rel="stylesheet" href="styles/tshed.css"> -->
- 
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/f5feadf823.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tech Shed Frome</title>
 
-<script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <link rel="stylesheet" href="styles/overrides.css">
+  <!--<link rel="stylesheet" href="styles/tshed.css"> -->
 
-</script>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f5feadf823.js" crossorigin="anonymous"></script>
 
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body class="has-text-centered is-size-6-mobile "
+  style="font-family: 'Quicksand', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
 
-<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-<link rel="manifest" href="assets/favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+  <script type="text/javascript">
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+    }
 
-  </head>
+    function toggle_off(id) {
+      var e = document.getElementById(id);
+      e.style.display = 'none';
+    }
 
-<body class="has-text-centered is-size-6-mobile " style="font-family: 'Quicksand', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-
-
-<script type="text/javascript">
-
-      function toggle_visibility(id) {
-         var e = document.getElementById(id);
-         if(e.style.display == 'block')
-            e.style.display = 'none';
-         else
-            e.style.display = 'block';
-      }
-
-      function toggle_off(id) {
-         var e = document.getElementById(id);
-        
-            e.style.display = 'none';
-       
-      }
-
-      function hideAd() {
-        
-        document.getElementById('eapps-instagram-feed-1').children[4].style.display = 'none'
-
-      }
- 
+    function hideAd() {
+      document.getElementById('eapps-instagram-feed-1').children[4].style.display = 'none'
+    }
   </script>
 
-<nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    
+  <nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
 
-  
-  </div>
 
-  <div id="navbarBasicExample" class="navbar-menu ">
-    <div class="navbar-start">
-      <a class="navbar-item" href="https://techshedfrome.org/">
-        <img src="assets/NewLogo_mini.png" height="38" alt="Tech Shed Frome logo">
-      </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" onmouseover="toggle_visibility('navbar-dropdown1')" onclick="toggle_visibility('navbar-dropdown1');">
-          Learn more
-        </a>
-
-        <div class="navbar-dropdown" id="navbar-dropdown1" onmouseleave="toggle_off('navbar-dropdown1')">
-          <a class="navbar-item" href="#down" onclick="toggle_visibility('navbar-dropdown1');" >
-            What is Tech Shed Frome?
-          </a>
-          <a class="navbar-item" href="#WhatHappens" onclick="toggle_visibility('navbar-dropdown1');">
-            What happens at Tech Shed Frome?
-          </a>
-          <a class="navbar-item" href="#WhoGetInvolved" onclick="toggle_visibility('navbar-dropdown1');">
-            Who should get involved?
-          </a>
-          <a class="navbar-item" href="#WhatMembersGet" onclick="toggle_visibility('navbar-dropdown1');"> 
-            What do members get?
-          </a>
-          <a class="navbar-item" href="#Gallery" onclick="toggle_visibility('navbar-dropdown1');">
-            Gallery
-          </a>
-         <!--  <a class="navbar-item" href="" onclick="toggle_visibility('navbar-dropdown1');"> 
-            Tech Shed Frome Charter
-          </a>-->
-         <!-- <a class="navbar-item ">
-            <label for="ContactUsModal" style=" cursor: pointer;" >Contact the team</label> 
-          </a>-->
-          <hr style="margin-top:0px;margin-bottom: 3px;">
-          <a class="navbar-item" href="https://forum.techshedfrome.org" target="_blank" style="padding-right: 10px;">
-            Community Forum<i class="fas fa-external-link-alt" style="margin-left:6px;"></i> 
-          </a>
-       
-       
-        <a class="navbar-item" href="https://trello.com/b/8EllkZqi" target="_blank" style="padding-right: 10px;">
-          Problem board <i class="fas fa-external-link-alt" style="margin-left:6px;"></i>
-        </a>
-        <a class="navbar-item" href="https://github.com/techshedfrome" target="_blank" style="padding-right: 10px;">
-          GitHub repo <i class="fas fa-external-link-alt" style="margin-left:6px;"></i>
-        </a>
-     
-        </div>
-      </div>
     </div>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <!--  <a class="is-light is-hidden-mobile button"  >
+    <div id="navbarBasicExample" class="navbar-menu ">
+      <div class="navbar-start">
+        <a class="navbar-item" href="https://techshedfrome.org/">
+          <img src="assets/NewLogo_mini.png" height="38" alt="Tech Shed Frome logo">
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" onmouseover="toggle_visibility('navbar-dropdown1')"
+            onclick="toggle_visibility('navbar-dropdown1');">
+            Learn more
+          </a>
+
+          <div class="navbar-dropdown" id="navbar-dropdown1" onmouseleave="toggle_off('navbar-dropdown1')">
+            <a class="navbar-item" href="#down" onclick="toggle_visibility('navbar-dropdown1');">
+              What is Tech Shed Frome?
+            </a>
+            <a class="navbar-item" href="#WhatHappens" onclick="toggle_visibility('navbar-dropdown1');">
+              What happens at Tech Shed Frome?
+            </a>
+            <a class="navbar-item" href="#WhoGetInvolved" onclick="toggle_visibility('navbar-dropdown1');">
+              Who should get involved?
+            </a>
+            <a class="navbar-item" href="#WhatMembersGet" onclick="toggle_visibility('navbar-dropdown1');">
+              What do members get?
+            </a>
+            <a class="navbar-item" href="#Gallery" onclick="toggle_visibility('navbar-dropdown1');">
+              Gallery
+            </a>
+            <!--  <a class="navbar-item" href="" onclick="toggle_visibility('navbar-dropdown1');"> 
+            Tech Shed Frome Charter
+          </a>-->
+            <!-- <a class="navbar-item ">
+            <label for="ContactUsModal" style=" cursor: pointer;" >Contact the team</label> 
+          </a>-->
+            <hr style="margin-top:0px;margin-bottom: 3px;">
+            <a class="navbar-item" href="https://forum.techshedfrome.org" target="_blank" style="padding-right: 10px;">
+              Community Forum<i class="fas fa-external-link-alt" style="margin-left:6px;"></i>
+            </a>
+
+
+            <a class="navbar-item" href="https://trello.com/b/8EllkZqi" target="_blank" style="padding-right: 10px;">
+              Problem board <i class="fas fa-external-link-alt" style="margin-left:6px;"></i>
+            </a>
+            <a class="navbar-item" href="https://github.com/techshedfrome" target="_blank" style="padding-right: 10px;">
+              GitHub repo <i class="fas fa-external-link-alt" style="margin-left:6px;"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <!--  <a class="is-light is-hidden-mobile button"  >
            
               <label for="ContactUsModal" style=" cursor: pointer;" >Contact Us</label> 
           </a>          -->
-          
-          <a class="button is-warning has-text-weight-semibold has-text-black" href="#members">
-            <strong>Join Tech Shed</strong>
-          </a>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
-<input id="ContactUsModal" type="checkbox" />
-<!-- Modal -->
-<div class="modal" id="contactUs">
-<div class="modal-background" ></div>
-<div class="modal-content">
-  <div class="box">
-    <article class="media">
-     
-      <div class="media-content" style="overflow-x:visible !important;">
-        <div class="content">
-        
-            <h3>Contact Us</h3>
-            <label class="modal-close is-medium" for="ContactUsModal"></label>
-            Drop the team a message and we'll get back to you as soon as we can.  Alternativley you can find us on Facebook, Instagram or <a href="mailto:team@techshedfrome.org" class="funkyUnderlineBlue">email us directly</a> </a>
-          <br><br><form>
 
-            <div class="field">
-              <label class="label ">Your Name</label>
-              <div class="control ">
-                <input class="input is-warning" type="text" placeholder="" >
-              </div>
-            </div>
-            
-            
-            
-            <div class="field">
-              <label class="label">Your Email</label>
-              <div class="control has-icons-left has-icons-right">
-                <input class="input is-warning" type="email" placeholder="Email input" value="">
-                <span class="icon is-small is-left">
-                  <i class="fas fa-envelope"></i>
-                </span>
-                <span class="icon is-small is-right" style="display: none;">
-                  <i class="fas fa-exclamation-triangle"></i>
-                </span>
-              </div>
-              <p class="help is-danger">This email is invalid</p>
-            </div>
-            
-           
-            
-            <div class="field">
-              <label class="label ">Message</label>
-              <div class="control">
-                <textarea class="textarea is-warning" placeholder="Leave the team a message here.."></textarea>
-              </div>
-            </div>
-            
-            
-            
-            <div class="field is-grouped">
-              <div class="control">
-                <button class="button is-link is-warning has-text-weight-bold">Send message</button>
-              </div>
-              
-            </div>
-            
-          </form>
-         
-       
-        </div>
-        
-      </div>
-    </article>
-  </div>
-   <!-- Modal -->
-</div>
+            <a class="button is-warning has-text-weight-semibold has-text-black" href="#members">
+              <strong>Join Tech Shed</strong>
+            </a>
 
-</div>
-<section class="hero is-fullheight   " >
-    <div class="hero-body has-text-centered" style="background: white; margin:0 auto;" >
-<div class="container " ></div>
-      <div class="columns" style="margin-top:50px;" >
-        <div class="column has-text-right-tablet is-one-fifth  topspacerMobile" >
-         
-        </div>
-        
-        <div class="column has-text-centered  spacerMobile" >
-          <img src="assets/TechShed_Logo_Ani_optimised.gif" width="340" alt="Tech Shed Frome logo">
-          <h1 class="title has-text-black is-hidden"  >TECH SHED FROME</h1>
-           
-           
-            <div class="content is-size-5" style="margin-top:10px;">Bringing together people with an interest in technology, to make useful things for the community of Frome.
-              <p><br><strong> Wednesdays 7pm - 9pm</strong><br>The Remakery, The Welshmill Hub, Frome<br> <a href="https://goo.gl/maps/k4xUKxdr83veoMc9A" class="is-size-6 funkyUnderlineBlue">view map</a><i class="fas fa-external-link-alt has-text-black text-is-7" style="margin-left:6px;"></i></p>
-            </div >
-            <a href="#down" class="button is-warning has-text-black is-rounded text-is-1 has-text-weight-semibold" >Learn more</a>
-           
           </div>
-          
-        <div class="column is-half">
-          <img src="assets/mainheroimage.jpg" width="550" style="margin-bottom: 20px;" alt="Tech Shed Team on a breadboard">
-        
         </div>
-       
       </div>
+    </div>
+  </nav>
+  <input id="ContactUsModal" type="checkbox" />
+  <!-- Modal -->
+  <div class="modal" id="contactUs">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <div class="box">
+        <article class="media">
 
-</div>
-</section>
-<img src="assets/drone_seperator.png" width="343" id="down" alt="drone carton image">
+          <div class="media-content" style="overflow-x:visible !important;">
+            <div class="content">
 
+              <h3>Contact Us</h3>
+              <label class="modal-close is-medium" for="ContactUsModal"></label>
+              Drop the team a message and we'll get back to you as soon as we can. Alternativley you can find us on
+              Facebook, Instagram or <a href="mailto:team@techshedfrome.org" class="funkyUnderlineBlue">email us
+                directly</a> </a>
+              <br><br>
+              <form>
 
-<section class="content section container " style="margin-bottom: 0px;margin-top: 30px;">
-  <h2 style="margin-bottom:30px;">What is Tech Shed Frome?</h2 >
-
-  <div class="column has-text-left-tablet">
-            A group of technology enthusiasts that meet each week in social space to ‘tinker’.  We believe that if we put together <a href="#WhoGetInvolved" class="funkyUnderlineBlue">people who love technology</a> we can make some useful things for the community. 
-                  <br><br><strong> What do you mean by technology?</strong> <br>Everything from Arduinos, Raspberry Pi, drones, soldering, programming, lasers, websites, apps, VR, 3d printers.  See our <label class="funkyUnderlineBlue" for="element-toggle">kit list</label>.
-                <br><br> <strong>Give us a challenge!</strong><br> 
-                  If you think you've got a local community problem that needs fresh thinking, <label for="ContactUsModal" style=" cursor: pointer;" class="funkyUnderlineBlue" >tell us</label> or drop in and say hello.
-                
+                <div class="field">
+                  <label class="label ">Your Name</label>
+                  <div class="control ">
+                    <input class="input is-warning" type="text" placeholder="">
+                  </div>
                 </div>
-          
+
                 
-  
-  <div class="column content section container" style="padding-top:20px;" >
-    <div class="block" ><img src="assets/techshedgroup.jpg" width="500" style="margin-top:0px;" id="Gallery" alt="Tech Shed Group photo"></div>
-   
-    
-  </div></div>
-  <h3 >Gallery</h3>
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-  <div class="elfsight-app-132bd728-68af-4605-b36c-6da8f4d4c43d"></div>
-  <script>
-    setTimeout(hideAd,1500)
-  </script>
+                <div class="field">
+                  <label class="label">Your Email</label>
+                  <div class="control has-icons-left has-icons-right">
+                    <input class="input is-warning" type="email" placeholder="Email input" value="">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right" style="display: none;">
+                      <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                  </div>
+                  <p class="help is-danger">This email is invalid</p>
+                </div>
 
-</section>
- 
-          <section>   
-          <div class="content section container"  style="scroll-behavior: smooth; padding-top: 0px;">
-        
-          <img src="assets/circuit_seperator.png" width="322" id="WhatHappens" alt="circuit cartoon image">
-          <h3>What happens at Tech Shed Frome?</h3>
-          <div class="columns">
-            <div class="column has-text-left-tablet">
-          <Strong>Weekly Sessions</Strong><br>
-We meet every Wednesday from 7-9pm at <a href="https://goo.gl/maps/k4xUKxdr83veoMc9A" class="is-size-6 funkyUnderlineBlue">The Welsh Mill Hub</a><i class="fas fa-external-link-alt has-text-black text-is-7" style="margin-left:6px;"></i></a>, to socialise, share, learn and create.<br><br>
-          <strong>Open Days</strong><br>
-         Open days are for anyone to join.  For example we might have a 'Build an air quaility sensor workshop' for anyone in Frome to come and learn how to build their own sensor.
-          <br> <br><strong >Working on projects</strong><br>
-            
-                We connect with the town council, businesses, and local people to create interesting
-                and technological solutions that benefit the community.  
-             
-                <br>
+
+
+                <div class="field">
+                  <label class="label ">Message</label>
+                  <div class="control">
+                    <textarea class="textarea is-warning" placeholder="Leave the team a message here.."></textarea>
+                  </div>
+                </div>
+
+
+
+                <div class="field is-grouped">
+                  <div class="control">
+                    <button class="button is-link is-warning has-text-weight-bold">Send message</button>
+                  </div>
+
+                </div>
+
+              </form>
+
+
             </div>
-            <div class="column ">
-            <div class="box has-background-white-bis" style="margin-top:20px;">
-   
-              <strong>Can I help out on a project?</strong>
-              <p>
-                Yes! Take a look at <a href="#WhoGetInvolved" class="funkyUnderlineBlue">who should get involved</a> to see what sort of role you might like to take.  To see on-going projects, take a look at our <a class="funkyUnderlineBlue" href="https://trello.com/b/8EllkZqi">problem board</a> <i class="fas fa-external-link-alt" style="margin-left:0px;" ></i>
-              </p>
-              
-           
 
-      
-             
-              </p>
-           
-              <strong> Can I work on my own thing and just tinker?</strong>
-        
-              <p>
-                  Yes! Whatever it is, if it's your own interest, or you want to just play and learn.
-              </p>
-            </div>
-            </div>
-            </div>
-          
-              <img src="assets/drone_seperator.png" width="311" style="margin-top:60px" id="WhoGetInvolved" alt="drone cartoon image">
-              
-              <section class="content  " style="margin-bottom: 0px;margin-top:40px" >
-                <h3 style="margin-bottom: 30px;">Who should get involved?</h3>
-                <div class="columns">
-                  <div class="column has-text-left-tablet">
-                    
-                    We welcome <strong>everyone</strong> who’s interested in the community and using technology to make it a better
-                      place.  <br><br>Below are some of the useful roles that members can bring to Tech Shed Frome.
-                            <div class="content">
-          
-                              <br><strong>Developers</strong> <br>Whatever you langauge, whether PHP, Python, C++, Java, Ruby, Javascript, HTML, or CSS we want it all.<br>
-                              <br><strong>Organisers & Communicators </strong><br>You love to herd cats, work out what needs doing and make things happen. Or perhaps you can communicate complex ideas in simple ways to any audience?<br>
-                              <br><strong>Designers</strong><br>UXers, graphic or brand designers that can make things simple, easy and beautiful all at the same time.<br>
-                              <br><strong>Technologists</strong><br>Maybe you just play with a bit of everything from electronics and programming to lasers, 3d printing.. whatever it's all welcome.<br>
-                            
-                          </div>
-
-                          </div>
-                  
-                  <div class="column content  container" >
-                    <div class="block" ><img src="assets/peopleGather.jpg" width="500" style="margin-top:0px;" alt="people gathering at Tech Shed Frome"></div>
-                   
-                    <div class="box has-background-white-bis " style="margin-top: 30px;" >
-                      <div style="padding-top: 0px;padding-bottom: 0px;">
-                          <strong> Can I chat to someone before I come?</strong>
-                          <p>Sure, drop the <a href="mailto:team@techshedfrome.org" class="funkyUnderlineBlue">Tech Shed team a message</a> before and we will do our best to make you feel at home.</p>
-                         <strong> Will you fix my laptop or tech kit?</strong>
-                          <p>We don’t fix stuff on our own, but if you bring it along you may find another member can help or give
-                              you
-                              pointers. It can be your next project.</p>
-          
-                             <strong> I don’t feel very confident about technology am I welcome?</strong>
-                             <p>Yes! Whilst we don’t offer lessons or any courses, if you are willing to try, mess it up and try
-                              again, a
-                              member will be happy to show you the basics. You might also be interested in coming to a more structured open day.
-                          </p>
-                        </div>
-                      
-                      </div>
-                  </div></div>
-                </section>
-
-        <img src="assets/wifi_seperator.png" width="311" style="margin-top: 80px;margin-bottom: 30px;" id="WhatMembersGet" alt="wifi cartoon image" >
-     
-        <h3 >What do Tech Shed Frome members get?</h3>
-        <section class="content container" style="padding-bottom: 0px;padding-top:20px">
-          <div class="columns">
-            <div class="column">
-            
-              <div class="block" style="margin-bottom:0px" ><img src="assets/TechshedKit_sml.jpg" width="500" style="margin-top:0px;margin-bottom: 0px;" alt="Picture of Tech Shed Kit"></div>
-             <div class="is-italic">Just a snapshot of some of the great kit we've got to play with.  See something missing? Let us know and we'll do our best to get it.</div>
-              
-                    </div>
-            
-            <div class="column content container has-text-left-tablet" style="padding-top:20px;" >
-
-              <div class="content">
-                <p><strong>Access to <label class="funkyUnderlineBlue" for="element-toggle">all of our kit</label></strong>, with plenty of fun things you can play and tinker with.  A member will always be happy to show you the basics.</p>
-                <p><strong>A social space </strong>to hang out, learn and chat with bright and interesting people who are curious about playing with technology.</p>
-              <p>  A chance to <strong>make a difference  and impact </strong>in your local community.</p>
-              <p>  Our <a href = "https://forum.techshedfrome.org/" class="funkyUnderlineBlue" ><strong>Community Forum</strong></a> <i class="fas fa-external-link-alt" style="margin-left:0px;" ></i> to chat and share ideas.</p>
-            </div>
-           </div>
-            </div>
-          </section>
-
-      <img src="assets/mouse_seperator.png" width="311" style="margin-top: 50px;margin-bottom: 50px;" id="members" alt="Mouse cartoon image">
-    
-        <section class="box has-background-white-bis" style="padding-bottom: 30px;padding-top:50px;" >
-            <h3 class="subtitle" >Join Techshed Frome</h3>
-            
-            We’re so glad you're interested in Tech Shed Frome. Pop in and say hello.<br><br><p><strong>Wednesdays 7-9pm</strong> <br>@Welshmill Hub, Park Hill Dr, Frome BA11 2LE<br><a href="https://goo.gl/maps/k4xUKxdr83veoMc9A" class="funkyUnderlineBlue"  >view map<i class="fas fa-external-link-alt has-text-black text-is-8" style="margin-left:6px;"></i></a></p>
-          <h4 style="margin-top:30px;margin-bottom: 0px;"> Membership fee</h4> 
-            Free	- Your first weekly session <br>
-            £5 	- Annual membership fee<br>
-            £3 	- per weekly session<br>
-
-            <br><!--<button class="button block is-warning has-text-weight-bold has-text-black"> Sign up now</button><br> -->
-          
-            <div >Concession rates available, contact the team on<br><a href="mailto:info@Techshedfrome.org" class="funkyUnderlineBlue">info@techshedfrome.org</a></div>
-         
-           
-<hr >
-
-<!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-  <form action="https://gmail.us20.list-manage.com/subscribe/post?u=55ffa95e37bb0cf901911b917&amp;id=c776f0592c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-        <strong >Join our mailing list for updates</strong>
-    <div class="field has-text-centered " style="width:300px;margin:0 auto;">
-   
-    <input type="email" value="" name="EMAIL" class="input is-warning" id="mce-EMAIL">
-  </div>
-    <div id="mce-responses" class="clear">
-      <div class="response" id="mce-error-response" style="display:none"></div>
-      <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_55ffa95e37bb0cf901911b917_c776f0592c" tabindex="-1" value=""></div>
-      <div class="is-size-7" style="margin-top:6px ;">We treat your personal data with care, view our <a href="privacy_notice.html">privacy notice</a>.</div><br>
-      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button block is-warning has-text-weight-bold has-text-black" style="margin-top:20px;">
+          </div>
+        </article>
       </div>
-  </form>
+      <!-- Modal -->
+    </div>
+
+    <div class="columns is-hidden-mobile" style="margin:90px auto 0; max-width: 750px">
+      <div class="is-one-fifth is-hidden-mobile topspacerMobile">
+      </div>
+      <article id="covid-message" class="message is-warning is-hidden-mobile is-marginless">
+        <div class="message-header">
+          <p>Coronavirus Update (COVID-19)</p>
+          <button class="delete" aria-label="delete"
+            onclick="document.querySelector('#covid-message').classList.add('is-hidden');"></button>
+        </div>
+        <div class="message-body">
+          As we’re sure you’re all aware, the pandemic virus has been spreading in the UK for the last few weeks,
+          putting specific groups at risk (those over 70 or with pre-existing conditions, and healthcare workers.)
+          <br /><br />
+          Recorded cases in our region are still low, but we’re expecting that to change over the next days or weeks,
+          so we think now is the time to take action,
+          <br />
+          <strong>so we’ve made the decision to suspend the physical meetup and move online</strong>.
+          <br /><br />
+          A full version of our <a
+            href="https://docs.google.com/document/d/1DiC4Nen3iqIRviTmhR7MQRpMjmQMYP_K0s0tZ4Ki3qU/edit?usp=sharing">Coronavirus
+            Statement is available here</a>.
+        </div>
+    </div>
+
   </div>
-  
-  <!--End mc_embed_signup-->
-           
-            <br>
-        
-            
-        </section>
+  <section class="hero is-fullheight   ">
+    <div class="hero-body has-text-centered" style="background: white; margin:0 auto;">
+      <div class="container "></div>
+      <div class="columns" style="margin-top:50px;">
+        <div class="column has-text-right-tablet is-one-fifth  topspacerMobile">
+
+        </div>
+
+        <div class="column has-text-centered  spacerMobile">
+          <img src="assets/TechShed_Logo_Ani_optimised.gif" width="340" alt="Tech Shed Frome logo">
+          <h1 class="title has-text-black is-hidden">TECH SHED FROME</h1>
+
+
+          <div class="content is-size-5" style="margin-top:10px;">Bringing together people with an interest in
+            technology, to make useful things for the community of Frome.
+            <p><br><strong> Wednesdays 7pm - 9pm</strong><br>The Remakery, The Welshmill Hub, Frome<br> <a
+                href="https://goo.gl/maps/k4xUKxdr83veoMc9A" class="is-size-6 funkyUnderlineBlue">view map</a><i
+                class="fas fa-external-link-alt has-text-black text-is-7" style="margin-left:6px;"></i></p>
+          </div>
+          <a href="#down" class="button is-warning has-text-black is-rounded text-is-1 has-text-weight-semibold">Learn
+            more</a>
+
+        </div>
+
+        <div class="column is-half">
+          <img src="assets/mainheroimage.jpg" width="550" style="margin-bottom: 20px;"
+            alt="Tech Shed Team on a breadboard">
+
+        </div>
+
+      </div>
 
     </div>
-   
-   
+  </section>
+  <img src="assets/drone_seperator.png" width="343" id="down" alt="drone carton image">
+
+
+  <section class="content section container " style="margin-bottom: 0px;margin-top: 30px;">
+    <h2 style="margin-bottom:30px;">What is Tech Shed Frome?</h2>
+
+    <div class="column has-text-left-tablet">
+      A group of technology enthusiasts that meet each week in social space to ‘tinker’. We believe that if we put
+      together <a href="#WhoGetInvolved" class="funkyUnderlineBlue">people who love technology</a> we can make some
+      useful things for the community.
+      <br><br><strong> What do you mean by technology?</strong> <br>Everything from Arduinos, Raspberry Pi, drones,
+      soldering, programming, lasers, websites, apps, VR, 3d printers. See our <label class="funkyUnderlineBlue"
+        for="element-toggle">kit list</label>.
+      <br><br> <strong>Give us a challenge!</strong><br>
+      If you think you've got a local community problem that needs fresh thinking, <label for="ContactUsModal"
+        style=" cursor: pointer;" class="funkyUnderlineBlue">tell us</label> or drop in and say hello.
+
+    </div>
+
+
+
+    <div class="column content section container" style="padding-top:20px;">
+      <div class="block"><img src="assets/techshedgroup.jpg" width="500" style="margin-top:0px;" id="Gallery"
+          alt="Tech Shed Group photo"></div>
+
+
+    </div>
+    </div>
+    <h3>Gallery</h3>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-132bd728-68af-4605-b36c-6da8f4d4c43d"></div>
+    <script>
+      setTimeout(hideAd, 1500)
+    </script>
+
+  </section>
+
+  <section>
+    <div class="content section container" style="scroll-behavior: smooth; padding-top: 0px;">
+
+      <img src="assets/circuit_seperator.png" width="322" id="WhatHappens" alt="circuit cartoon image">
+      <h3>What happens at Tech Shed Frome?</h3>
+      <div class="columns">
+        <div class="column has-text-left-tablet">
+          <Strong>Weekly Sessions</Strong><br>
+          We meet every Wednesday from 7-9pm at <a href="https://goo.gl/maps/k4xUKxdr83veoMc9A"
+            class="is-size-6 funkyUnderlineBlue">The Welsh Mill Hub</a><i
+            class="fas fa-external-link-alt has-text-black text-is-7" style="margin-left:6px;"></i></a>, to socialise,
+          share, learn and create.<br><br>
+          <strong>Open Days</strong><br>
+          Open days are for anyone to join. For example we might have a 'Build an air quaility sensor workshop' for
+          anyone in Frome to come and learn how to build their own sensor.
+          <br> <br><strong>Working on projects</strong><br>
+
+          We connect with the town council, businesses, and local people to create interesting
+          and technological solutions that benefit the community.
+
+          <br>
+        </div>
+        <div class="column ">
+          <div class="box has-background-white-bis" style="margin-top:20px;">
+
+            <strong>Can I help out on a project?</strong>
+            <p>
+              Yes! Take a look at <a href="#WhoGetInvolved" class="funkyUnderlineBlue">who should get involved</a> to
+              see what sort of role you might like to take. To see on-going projects, take a look at our <a
+                class="funkyUnderlineBlue" href="https://trello.com/b/8EllkZqi">problem board</a> <i
+                class="fas fa-external-link-alt" style="margin-left:0px;"></i>
+            </p>
+
+
+
+
+
+            </p>
+
+            <strong> Can I work on my own thing and just tinker?</strong>
+
+            <p>
+              Yes! Whatever it is, if it's your own interest, or you want to just play and learn.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <img src="assets/drone_seperator.png" width="311" style="margin-top:60px" id="WhoGetInvolved"
+        alt="drone cartoon image">
+
+      <section class="content  " style="margin-bottom: 0px;margin-top:40px">
+        <h3 style="margin-bottom: 30px;">Who should get involved?</h3>
+        <div class="columns">
+          <div class="column has-text-left-tablet">
+
+            We welcome <strong>everyone</strong> who’s interested in the community and using technology to make it a
+            better
+            place. <br><br>Below are some of the useful roles that members can bring to Tech Shed Frome.
+            <div class="content">
+
+              <br><strong>Developers</strong> <br>Whatever you langauge, whether PHP, Python, C++, Java, Ruby,
+              Javascript, HTML, or CSS we want it all.<br>
+              <br><strong>Organisers & Communicators </strong><br>You love to herd cats, work out what needs doing and
+              make things happen. Or perhaps you can communicate complex ideas in simple ways to any audience?<br>
+              <br><strong>Designers</strong><br>UXers, graphic or brand designers that can make things simple, easy and
+              beautiful all at the same time.<br>
+              <br><strong>Technologists</strong><br>Maybe you just play with a bit of everything from electronics and
+              programming to lasers, 3d printing.. whatever it's all welcome.<br>
+
+            </div>
+
+          </div>
+
+          <div class="column content  container">
+            <div class="block"><img src="assets/peopleGather.jpg" width="500" style="margin-top:0px;"
+                alt="people gathering at Tech Shed Frome"></div>
+
+            <div class="box has-background-white-bis " style="margin-top: 30px;">
+              <div style="padding-top: 0px;padding-bottom: 0px;">
+                <strong> Can I chat to someone before I come?</strong>
+                <p>Sure, drop the <a href="mailto:team@techshedfrome.org" class="funkyUnderlineBlue">Tech Shed team a
+                    message</a> before and we will do our best to make you feel at home.</p>
+                <strong> Will you fix my laptop or tech kit?</strong>
+                <p>We don’t fix stuff on our own, but if you bring it along you may find another member can help or give
+                  you
+                  pointers. It can be your next project.</p>
+
+                <strong> I don’t feel very confident about technology am I welcome?</strong>
+                <p>Yes! Whilst we don’t offer lessons or any courses, if you are willing to try, mess it up and try
+                  again, a
+                  member will be happy to show you the basics. You might also be interested in coming to a more
+                  structured open day.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <img src="assets/wifi_seperator.png" width="311" style="margin-top: 80px;margin-bottom: 30px;" id="WhatMembersGet"
+        alt="wifi cartoon image">
+
+      <h3>What do Tech Shed Frome members get?</h3>
+      <section class="content container" style="padding-bottom: 0px;padding-top:20px">
+        <div class="columns">
+          <div class="column">
+
+            <div class="block" style="margin-bottom:0px"><img src="assets/TechshedKit_sml.jpg" width="500"
+                style="margin-top:0px;margin-bottom: 0px;" alt="Picture of Tech Shed Kit"></div>
+            <div class="is-italic">Just a snapshot of some of the great kit we've got to play with. See something
+              missing? Let us know and we'll do our best to get it.</div>
+
+          </div>
+
+          <div class="column content container has-text-left-tablet" style="padding-top:20px;">
+
+            <div class="content">
+              <p><strong>Access to <label class="funkyUnderlineBlue" for="element-toggle">all of our
+                    kit</label></strong>, with plenty of fun things you can play and tinker with. A member will always
+                be happy to show you the basics.</p>
+              <p><strong>A social space </strong>to hang out, learn and chat with bright and interesting people who are
+                curious about playing with technology.</p>
+              <p> A chance to <strong>make a difference and impact </strong>in your local community.</p>
+              <p> Our <a href="https://forum.techshedfrome.org/" class="funkyUnderlineBlue"><strong>Community
+                    Forum</strong></a> <i class="fas fa-external-link-alt" style="margin-left:0px;"></i> to chat and
+                share ideas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <img src="assets/mouse_seperator.png" width="311" style="margin-top: 50px;margin-bottom: 50px;" id="members"
+        alt="Mouse cartoon image">
+
+      <section class="box has-background-white-bis" style="padding-bottom: 30px;padding-top:50px;">
+        <h3 class="subtitle">Join Techshed Frome</h3>
+
+        We’re so glad you're interested in Tech Shed Frome. Pop in and say hello.<br><br>
+        <p><strong>Wednesdays 7-9pm</strong> <br>@Welshmill Hub, Park Hill Dr, Frome BA11 2LE<br><a
+            href="https://goo.gl/maps/k4xUKxdr83veoMc9A" class="funkyUnderlineBlue">view map<i
+              class="fas fa-external-link-alt has-text-black text-is-8" style="margin-left:6px;"></i></a></p>
+        <h4 style="margin-top:30px;margin-bottom: 0px;"> Membership fee</h4>
+        Free - Your first weekly session <br>
+        £5 - Annual membership fee<br>
+        £3 - per weekly session<br>
+
+        <br>
+        <!--<button class="button block is-warning has-text-weight-bold has-text-black"> Sign up now</button><br> -->
+
+        <div>Concession rates available, contact the team on<br><a href="mailto:info@Techshedfrome.org"
+            class="funkyUnderlineBlue">info@techshedfrome.org</a></div>
+
+
+        <hr>
+
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="https://gmail.us20.list-manage.com/subscribe/post?u=55ffa95e37bb0cf901911b917&amp;id=c776f0592c"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+            target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <strong>Join our mailing list for updates</strong>
+              <div class="field has-text-centered " style="width:300px;margin:0 auto;">
+
+                <input type="email" value="" name="EMAIL" class="input is-warning" id="mce-EMAIL">
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                  name="b_55ffa95e37bb0cf901911b917_c776f0592c" tabindex="-1" value=""></div>
+              <div class="is-size-7" style="margin-top:6px ;">We treat your personal data with care, view our <a
+                  href="privacy_notice.html">privacy notice</a>.</div><br>
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                class="button block is-warning has-text-weight-bold has-text-black" style="margin-top:20px;">
+            </div>
+          </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+
+        <br>
+
+
+      </section>
+
+    </div>
+
+
     <input id="element-toggle" type="checkbox" />
-    
+
     <!-- Modal -->
     <div class="modal" id="myModal">
       <div class="modal-background"></div>
       <div class="modal-content">
         <div class="box">
           <article class="media">
-           
+
             <div class="media-content" style="overflow-x:visible !important;">
               <div class="content">
-              
-                  <h3>Tech Shed Frome kit</h3><label class="modal-close is-large" for="element-toggle"></label>
-                 We've got a bunch of ever growing kit, with lots of things to play with.  
-                 <br><br> <strong>Below should give you a flavour</strong>
+
+                <h3>Tech Shed Frome kit</h3><label class="modal-close is-large" for="element-toggle"></label>
+                We've got a bunch of ever growing kit, with lots of things to play with.
+                <br><br> <strong>Below should give you a flavour</strong>
                 <ul>
                   <li>Several Raspberry Pi</li>
                   <li>BBC microbits</li>
@@ -450,61 +513,64 @@ We meet every Wednesday from 7-9pm at <a href="https://goo.gl/maps/k4xUKxdr83veo
                   <li>Lots of spare breadboards and cables</li>
                   <li>Cardboard VR kit</li>
                   <li>TV, HDMI screen</li>
-      
+
                 </ul> What's missing? Let us know and we'll see if we can get it. <br><br>
-                 
-             
+
+
               </div>
-              
+
             </div>
           </article>
         </div>
-       
+
       </div>
-      
+
     </div>
 
-  
-  
-      
-       
+
+
+
+
 
     <footer class="footer">
       <div class="content has-text-centered">
         <img src="assets/NewLogo.png" width="258" style="margin-top: 20px;" alt="Tech Shed Frome Logo">
-          <h1 class="title has-text-black is-hidden"  >TECH SHED FROME</h1>
-        <p>Wednesdays 7-9pm</p><p>The Remakery, Welshmill Hub, Park Hill Dr, Frome BA11 2LE<br><a href="https://goo.gl/maps/k4xUKxdr83veoMc9A" class="funkyUnderlineBlue" >view map<i class="fas fa-external-link-alt has-text-black text-is-6" style="margin-left:6px;"></i></a></p>
+        <h1 class="title has-text-black is-hidden">TECH SHED FROME</h1>
+        <p>Wednesdays 7-9pm</p>
+        <p>The Remakery, Welshmill Hub, Park Hill Dr, Frome BA11 2LE<br><a href="https://goo.gl/maps/k4xUKxdr83veoMc9A"
+            class="funkyUnderlineBlue">view map<i class="fas fa-external-link-alt has-text-black text-is-6"
+              style="margin-left:6px;"></i></a></p>
 
-      <p><a href="mailto:info@Techshedfrome.org" class="funkyUnderlineBlue">info@techshedfrome.org</a></p> 
-  <span class="icon is-large">
-    <span class="fa-2x">
-      <a href="https://www.facebook.com/TechShedFrome">  <i class="fab fa-facebook has-text-black"></i></a>
-    </span>
-    <span class="fa-2x" style="margin-left: 10px;">
-      <a href="https://www.instagram.com/techshedfrome/"><i class="fab fa-instagram has-text-black"></i></a>
-    </span>
-    <span class="fa-2x" style="margin-left: 10px;">
-      <a href="https://www.youtube.com/channel/UCd4pDZ0Tipv1DvRoo26fJmg">  <i class="fab fa-youtube has-text-black"></i></a>
-    </span>
-    <span class="fa-2x" style="margin-left: 10px;">
-      <a href="https://forum.techshedfrome.org">  <i class="fab fa-discourse has-text-black"></i></a>
-    </span>
-    <span class="fa-2x" style="margin-left: 10px;">
-      <a href="https://github.com/techshedfrome">  <i class="fab fa-github has-text-black"></i></i></a>
-    </span>
-    
-  </span>
+        <p><a href="mailto:info@Techshedfrome.org" class="funkyUnderlineBlue">info@techshedfrome.org</a></p>
+        <span class="icon is-large">
+          <span class="fa-2x">
+            <a href="https://www.facebook.com/TechShedFrome"> <i class="fab fa-facebook has-text-black"></i></a>
+          </span>
+          <span class="fa-2x" style="margin-left: 10px;">
+            <a href="https://www.instagram.com/techshedfrome/"><i class="fab fa-instagram has-text-black"></i></a>
+          </span>
+          <span class="fa-2x" style="margin-left: 10px;">
+            <a href="https://www.youtube.com/channel/UCd4pDZ0Tipv1DvRoo26fJmg"> <i
+                class="fab fa-youtube has-text-black"></i></a>
+          </span>
+          <span class="fa-2x" style="margin-left: 10px;">
+            <a href="https://forum.techshedfrome.org"> <i class="fab fa-discourse has-text-black"></i></a>
+          </span>
+          <span class="fa-2x" style="margin-left: 10px;">
+            <a href="https://github.com/techshedfrome"> <i class="fab fa-github has-text-black"></i></i></a>
+          </span>
 
-      
-     </div>
-     
+        </span>
+
+
+      </div>
+
     </footer>
 
-  </section >
-  
-</body >
+  </section>
+
+</body>
 
 
 
 </html>
-
