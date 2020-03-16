@@ -32,6 +32,7 @@
   <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 </head>
+
 <body class="has-text-centered is-size-6-mobile "
   style="font-family: 'Quicksand', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
 
@@ -155,7 +156,7 @@
                   </div>
                 </div>
 
-                
+
                 <div class="field">
                   <label class="label">Your Email</label>
                   <div class="control has-icons-left has-icons-right">
@@ -198,30 +199,29 @@
       </div>
       <!-- Modal -->
     </div>
-
-    <div class="columns is-hidden-mobile" style="margin:90px auto 0; max-width: 750px">
-      <div class="is-one-fifth is-hidden-mobile topspacerMobile">
-      </div>
-      <article id="covid-message" class="message is-warning is-hidden-mobile is-marginless">
-        <div class="message-header">
-          <p>Coronavirus Update (COVID-19)</p>
-          <button class="delete" aria-label="delete"
-            onclick="document.querySelector('#covid-message').classList.add('is-hidden');"></button>
-        </div>
-        <div class="message-body">
-          As we’re sure you’re all aware, the pandemic virus has been spreading in the UK for the last few weeks,
-          putting specific groups at risk (those over 70 or with pre-existing conditions, and healthcare workers.)
-          <br /><br />
-          Recorded cases in our region are still low, but we’re expecting that to change over the next days or weeks,
-          so we think now is the time to take action,
-          <br />
-          <strong>so we’ve made the decision to suspend the physical meetup and move online</strong>.
-          <br /><br />
-          A full version of our <a
-            href="https://docs.google.com/document/d/1DiC4Nen3iqIRviTmhR7MQRpMjmQMYP_K0s0tZ4Ki3qU/edit?usp=sharing">Coronavirus
-            Statement is available here</a>.
-        </div>
+  </div>
+  <div class="columns is-hidden-mobile" style="margin:90px auto 0; max-width: 750px">
+    <div class="is-one-fifth is-hidden-mobile topspacerMobile">
     </div>
+    <article id="covid-message" class="message is-warning is-marginless covid-message">
+      <div class="message-header">
+        <p>Coronavirus Update (COVID-19)</p>
+        <button class="delete" aria-label="delete"
+          onclick="document.querySelectorAll('.covid-message').forEach(x => x.classList.add('is-hidden'));"></button>
+      </div>
+      <div class="message-body">
+        As we’re sure you’re all aware, the pandemic virus has been spreading in the UK for the last few weeks,
+        putting specific groups at risk (those over 70 or with pre-existing conditions, and healthcare workers.)
+        <br /><br />
+        Recorded cases in our region are still low, but we’re expecting that to change over the next days or weeks,
+        so we think now is the time to take action,
+        <br />
+        <strong>so we’ve made the decision to suspend the physical meetup and move online</strong>.
+        <br /><br />
+        A full version of our <a
+          href="https://docs.google.com/document/d/1DiC4Nen3iqIRviTmhR7MQRpMjmQMYP_K0s0tZ4Ki3qU/edit?usp=sharing">Coronavirus
+          Statement is available here</a>.
+      </div>
 
   </div>
   <section class="hero is-fullheight   ">
@@ -231,6 +231,26 @@
         <div class="column has-text-right-tablet is-one-fifth  topspacerMobile">
 
         </div>
+        <article id="covid-message-mobile" class="message is-warning is-hidden-desktop is-hidden-tablet covid-message">
+          <div class="message-header">
+            <p>Coronavirus Update (COVID-19)</p>
+            <button class="delete" aria-label="delete"
+              onclick="document.querySelector('#covid-message-mobile').classList.add('is-hidden');"></button>
+          </div>
+          <div class="message-body">
+            As we’re sure you’re all aware, the pandemic virus has been spreading in the UK for the last few weeks,
+            putting specific groups at risk (those over 70 or with pre-existing conditions, and healthcare workers.)
+            <br /><br />
+            Recorded cases in our region are still low, but we’re expecting that to change over the next days or weeks,
+            so we think now is the time to take action,
+            <br />
+            <strong>so we’ve made the decision to suspend the physical meetup and move online</strong>.
+            <br /><br />
+            A full version of our <a
+              href="https://docs.google.com/document/d/1DiC4Nen3iqIRviTmhR7MQRpMjmQMYP_K0s0tZ4Ki3qU/edit?usp=sharing">Coronavirus
+              Statement is available here</a>.
+          </div>
+        </article>
 
         <div class="column has-text-centered  spacerMobile">
           <img src="assets/TechShed_Logo_Ani_optimised.gif" width="340" alt="Tech Shed Frome logo">
