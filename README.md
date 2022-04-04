@@ -1,9 +1,13 @@
 # techshed-site
 Techshed site redesign 2020
 
+---
 
 ## Bulma
 Initial choice for CSS framework (should shorten time to get a v1 out vs hand-rolled CSS) - lightweight, free, decent defaults.
+
+---
+
 ### Links
 * Bulma Docs - https://bulma.io/documentation/
 * Walkthroughs/tutorials:
